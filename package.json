@@ -1,0 +1,22 @@
+{
+    "name": "github-center",
+    "private": true,
+    "scripts": {
+        "start": "npm run build",
+        "build": "node build.js",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KatsuteDev/GitHub-Center.git"
+    },
+    "author": "Katsute",
+    "license": "CC-BY-NC-SA-4.0",
+    "bugs": {
+        "url": "https://github.com/KatsuteDev/GitHub-Center/issues"
+    },
+    "homepage": "https://github.com/KatsuteDev/GitHub-Center#readme",
+    "devDependencies": {
+        "adm-zip": "^0.5.10"
+    }
+}
