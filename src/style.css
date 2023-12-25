@@ -3,9 +3,9 @@
 .AppHeader > div, #repository-container-header,
 body:not(.project-page):not(.full-width) #repo-content-turbo-frame > div:not(:has(> react-app[app-name="react-code-view"])) {
 
-	width: 100%;
-	max-width: 1280px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
