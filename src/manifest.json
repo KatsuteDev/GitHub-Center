@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
 
-    "name": "GitHub Red Issues",
+    "name": "GitHub Center",
     "author": "Katsute",
-    "description": "Revert closed GitHub issues from purple back to red.",
+    "description": "Center navigation on large viewports",
     "version": "7.3",
-    "homepage_url": "https://github.com/KatsuteDev/GitHub-Red-Issues",
+    "homepage_url": "https://github.com/KatsuteDev/GitHub-Center",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
