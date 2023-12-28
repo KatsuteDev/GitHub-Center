@@ -1,6 +1,7 @@
 <div align="center">
     <a href="https://github.com/KatsuteDev/GitHub-Center#readme">
-        <img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon.png" width=100>
+        <img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon.png#gh-light-mode-only" width=100>
+        <img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon-alt.png#gh-dark-mode-only" width=100>
     </a>
     <h3>GitHub Center</h3>
     <p>Center GitHub navigation on large viewports.</p>
