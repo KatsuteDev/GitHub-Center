@@ -1,7 +1,9 @@
 <div align="center">
     <a href="https://github.com/KatsuteDev/GitHub-Center#readme">
-        <img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon.png#gh-light-mode-only" width=100>
-        <img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon-alt.png#gh-dark-mode-only" width=100>
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon-alt.png">
+            <img src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/icon.png" width=100>
+        </picture>
     </a>
     <h3>GitHub Center</h3>
     <p>Center GitHub navigation on large viewports.</p>
@@ -30,7 +32,7 @@
 <a href="https://chrome.google.com/webstore/detail/github-center/"><img alt="Opera" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/opera.svg"></a>
 <a href="https://chrome.google.com/webstore/detail/github-center/"><img alt="Chrome Web Store" valign="middle" src="https://img.shields.io/chrome-web-store/v/github-center?label=%20&style=flat-square&color=4285F4"></a>
 
-#### Firefox*
+#### Firefox
 
 <sup><i>requires Firefox 121 or higher</i></sup>
 
