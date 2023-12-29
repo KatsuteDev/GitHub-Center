@@ -14,13 +14,13 @@ body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(:has(> 
 #repository-container-header > .container-xl,
 #repo-content-turbo-frame .container-xl {
 
-	padding-left: 16px !important;
-	padding-right: 16px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
 
 }
 
 #repository-container-header > .container-xl > .border-bottom {
 
-	margin: 0 !important;
+    margin: 0 !important;
 
 }
