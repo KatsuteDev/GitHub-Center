@@ -4,7 +4,7 @@
     "name": "GitHub Center",
     "author": "Katsute",
     "description": "Center navigation on large viewports",
-    "version": "7.3",
+    "version": "1.0",
     "homepage_url": "https://github.com/KatsuteDev/GitHub-Center",
     "icons": {
         "16": "icon16.png",
@@ -14,6 +14,7 @@
 
     "browser_specific_settings": {
         "gecko": {
+            "id": "{c9021942-d0f6-40a5-82f3-904fd8767174}",
             "strict_min_version": "121.0"
         }
     },

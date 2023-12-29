@@ -1,6 +1,7 @@
 /* Copyright (C) 2023 Katsute <https://github.com/Katsute> */
 
-.AppHeader > div, #repository-container-header,
+.AppHeader > div,
+#repository-container-header,
 body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(:has(> react-app[app-name="react-code-view"])) {
 
     width: 100%;
