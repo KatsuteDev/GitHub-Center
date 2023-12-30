@@ -10,7 +10,7 @@
     <div>
         <a href="https://github.com/KatsuteDev/GitHub-Center/issues">Report an Issue</a>
         •
-        <a href="https://chrome.google.com/webstore/detail/github-center/">Chrome Extension</a>
+        <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn">Chrome Extension</a>
         •
         <a href="https://addons.mozilla.org/firefox/addon/github-center">Mozilla Add-on</a>
     <br><br>
