@@ -3,12 +3,12 @@ const puppeteer = require("puppeteer");
 const URL = "https://github.com/KatsuteDev/GitHub-Center";
 
 const selectors = [
-    `.AppHeader > div`,
+    // `.AppHeader > div`, // requires login
     `#repository-container-header`,
     `body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(:has(> react-app[app-name="react-code-view"]))`,
-    `#repository-container-header > .container-xl`,
+    // `#repository-container-header > .container-xl`, // requires login
     `#repo-content-turbo-frame .container-xl`,
-    `#repository-container-header > .container-xl > .border-bottom`,
+    // `#repository-container-header > .container-xl > .border-bottom`, // requires login
 ];
 
 (async () => {
