@@ -1,8 +1,10 @@
 /* Copyright (C) 2024 Katsute <https://github.com/Katsute> */
 
 .AppHeader > div,
+body:not(.project-page) .application-main:not(:has(> div > projects-v2, > div > .feed-background)),
 #repository-container-header,
-body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(:has(> react-app[app-name="react-code-view"])) {
+#js-repo-pjax-container:not(:has(> projects-v2)),
+body:not(.project-page) #repo-content-turbo-frame > div {
 
     width: 100%;
     max-width: 1280px;
@@ -11,15 +13,16 @@ body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(:has(> 
 
 }
 
-#repository-container-header > .container-xl,
-#repo-content-turbo-frame .container-xl {
+#repository-container-header > div,
+#repo-content-pjax-container > div,
+body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container) {
 
     padding-left: 16px !important;
     padding-right: 16px !important;
 
 }
 
-#repository-container-header > .container-xl > .border-bottom {
+#repository-container-header > div:last-child > div:last-child {
 
     margin: 0 !important;
 
