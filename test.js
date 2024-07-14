@@ -11,6 +11,7 @@ const selectors = [
 
     `#repository-container-header > div`,
     `#repo-content-pjax-container > div`,
+    // `#repo-content-turbo-frame > div:not(#repo-content-pjax-container)`, // uses turbo test case
 
     // `#repository-container-header > div:last-child > div:last-child` // requires login
 ];
@@ -33,7 +34,7 @@ const selectors = [
 
     {
         const s = `#repo-content-turbo-frame > div:not(#repo-content-pjax-container)`;
-        try{ // special test for turbo frame
+        try{ // test for turbo frame
             await page.click(`#issues-tab`);
             await page.waitForSelector(s, { timeout: 5000 });
             console.info('✅', s);

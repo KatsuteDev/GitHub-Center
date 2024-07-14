@@ -14,8 +14,8 @@ body:not(.project-page, .full-width) #repo-content-turbo-frame > div {
 }
 
 #repository-container-header > div,
-#repo-content-turbo-frame > div:not(#repo-content-pjax-container),
-#repo-content-pjax-container > div {
+#repo-content-pjax-container > div,
+#repo-content-turbo-frame > div:not(#repo-content-pjax-container) {
 
     padding-left: 16px !important;
     padding-right: 16px !important;
