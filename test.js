@@ -4,14 +4,14 @@ const URL = "https://github.com/KatsuteDev/GitHub-Center";
 
 const selectors = [
     // `.AppHeader > div`, // requires login
-    `.application-main:not(:has(> div > projects-v2))`,
+    `body:not(.project-page, .full-width) .application-main:not(:has(> div > projects-v2, > div > .feed-background))`,
     `#repository-container-header`,
     `#js-repo-pjax-container:not(:has(> projects-v2))`,
     `body:not(.project-page, .full-width) #repo-content-turbo-frame > div`,
 
     `#repository-container-header > div`,
     `#repo-content-pjax-container > div`,
-    // `#repo-content-turbo-frame > div:not(#repo-content-pjax-container)`, // uses turbo test case
+    // `body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(#repo-content-pjax-container)`, // uses turbo test case
 
     // `#repository-container-header > div:last-child > div:last-child` // requires login
 ];
@@ -33,7 +33,7 @@ const selectors = [
     }
 
     {
-        const s = `#repo-content-turbo-frame > div:not(#repo-content-pjax-container)`;
+        const s = `body:not(.project-page, .full-width) #repo-content-turbo-frame > div:not(#repo-content-pjax-container)`;
         try{ // test for turbo frame
             await page.click(`#issues-tab`);
             await page.waitForSelector(s, { timeout: 5000 });
