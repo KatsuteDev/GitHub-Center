@@ -4,7 +4,8 @@
 body:not(.project-page) .application-main:not(:has(> div > projects-v2, > div > .feed-background)),
 #repository-container-header,
 #js-repo-pjax-container:not(:has(> projects-v2)),
-body:not(.project-page) #repo-content-turbo-frame > div {
+body:not(.project-page) #repo-content-turbo-frame > div,
+#notification-shelf > div {
 
     width: 100%;
     max-width: 1280px;
@@ -15,7 +16,8 @@ body:not(.project-page) #repo-content-turbo-frame > div {
 
 #repository-container-header > div,
 #repo-content-pjax-container > div,
-body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container) {
+body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container),
+#notification-shelf > div {
 
     padding-left: 16px !important;
     padding-right: 16px !important;

@@ -14,6 +14,7 @@ const selectors = [
     // `body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container)`, // uses turbo test case
 
     // `#repository-container-header > div:last-child > div:last-child` // requires login
+    // `#notification-shelf > div` // requires notification
 ];
 
 (async () => {
