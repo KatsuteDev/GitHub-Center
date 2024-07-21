@@ -4,7 +4,7 @@ const URL = "https://github.com/KatsuteDev/GitHub-Center";
 
 const selectors = [
     // `.AppHeader > div`, // requires login
-    `body:not(.project-page) .application-main:not(:has(> div > projects-v2, > div > .feed-background))`,
+    `body:not(.project-page) .application-main:not(:has(> div > projects-v2, > div > .feed-background),:has(> main > react-app[app-name="marketplace-react"]))`,
     `#repository-container-header`,
     `#js-repo-pjax-container:not(:has(> projects-v2))`,
     `body:not(.project-page) #repo-content-turbo-frame > div`,
