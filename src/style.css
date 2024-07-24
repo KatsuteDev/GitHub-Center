@@ -1,9 +1,9 @@
 /* Copyright (C) 2024 Katsute <https://github.com/Katsute> */
 
 .AppHeader > div,
-body:not(.project-page) .application-main:not(:has(> div > projects-v2, > div > .feed-background),:has(> main > react-app[app-name="marketplace-react"])),
 #repository-container-header,
-#js-repo-pjax-container:not(:has(> projects-v2)),
+react-app[app-name="repos-list"],
+#js-repo-pjax-container > *:not(projects-v2, .flash),
 body:not(.project-page) #repo-content-turbo-frame > div,
 #notification-shelf > div {
 
