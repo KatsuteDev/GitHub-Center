@@ -5,6 +5,7 @@
 react-app[app-name="repos-list"],
 #js-repo-pjax-container > *:not(projects-v2, .flash),
 body:not(.project-page) #repo-content-turbo-frame > div,
+#repo-content-turbo-frame[src$="/actions"],
 #notification-shelf > div {
 
     width: 100%;
