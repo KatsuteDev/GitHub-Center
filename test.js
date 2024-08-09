@@ -12,6 +12,7 @@ const selectors = [
     `#repository-container-header > div`,
     `#repo-content-pjax-container > div`,
     // `body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container)`, // uses turbo test case
+    // `#repo-content-turbo-frame[src$="/actions"]`, // uses turbo test case
 
     // `#repository-container-header > div:last-child > div:last-child` // requires login
     // `#notification-shelf > div` // requires notification
@@ -33,10 +34,23 @@ const selectors = [
         }
     }
 
-    {
+    { // issues turbo test
         const s = `body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container)`;
         try{ // test for turbo frame
             await page.click(`#issues-tab`);
+            await page.waitForSelector(s, { timeout: 5000 });
+            console.info('✅', s);
+        }catch(e){
+            console.error('❌', s);
+            failed = true;
+        }
+    }
+
+    { // actions turbo test
+        const s = `#repo-content-turbo-frame[src$="/actions"]`;
+        await page.goto("https://github.com/KatsuteDev/GitHub-Center/actions/runs/10311577473");
+        try{ // test for turbo frame
+            await page.click(`#actions-tab`);
             await page.waitForSelector(s, { timeout: 5000 });
             console.info('✅', s);
         }catch(e){
