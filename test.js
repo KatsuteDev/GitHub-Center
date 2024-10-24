@@ -38,6 +38,7 @@ const selectors = [
 
     { // issues turbo test
         const s = `body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-container)`;
+        await page.goto("https://github.com/Katsute/awesome-myanimelist"); // use legacy issues
         try{ // test for turbo frame
             await page.click(`#issues-tab`);
             await page.waitForSelector(s, { timeout: 5000 });
