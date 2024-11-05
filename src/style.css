@@ -2,6 +2,7 @@
 
 .AppHeader > div,
 #repository-container-header,
+react-app[app-name="actions-metrics"],
 react-app[app-name="repos-list"],
 #js-repo-pjax-container > *:not(projects-v2, .flash),
 body:not(.project-page) #repo-content-turbo-frame > div,
