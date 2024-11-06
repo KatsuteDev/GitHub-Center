@@ -4,7 +4,7 @@
     "name": "GitHub Center",
     "author": "Katsute",
     "description": "Center navigation on large viewports",
-    "version": "2.5",
+    "version": "2.6",
     "homepage_url": "https://github.com/KatsuteDev/GitHub-Center",
     "icons": {
         "16": "icon16.png",
@@ -24,5 +24,8 @@
     "content_scripts": [{
         "css": ["style.css"],
         "matches": ["https://github.com/*"]
+    }, {
+        "css": ["style2.css"],
+        "matches": ["https://gist.github.com/*"]
     }]
 }

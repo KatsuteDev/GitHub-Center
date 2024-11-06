@@ -1,0 +1,11 @@
+/* Copyright (C) 2024 Katsute <https://github.com/Katsute> */
+
+.js-header-wrapper > .Header,
+.gisthead > div {
+
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
