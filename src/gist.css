@@ -9,3 +9,7 @@
     margin-right: auto;
 
 }
+
+body > div > div.position-relative {
+    background-color: var(--header-bgColor, var(--color-header-bg));
+}
