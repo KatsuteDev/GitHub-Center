@@ -6,7 +6,9 @@ react-app[app-name="actions-metrics"],
 react-app[app-name="repos-list"],
 #js-repo-pjax-container > *:not(projects-v2, .flash),
 body:not(.project-page) #repo-content-turbo-frame > div,
+body:has(codespace-zero-config) .application-main,
 #repo-content-turbo-frame[src$="/actions"],
+#js-flash-container > .flash > div,
 #notification-shelf > div {
 
     width: 100%;
