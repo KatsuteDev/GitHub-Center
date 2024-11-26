@@ -62,6 +62,24 @@ const selectors = [
         }
     }
 
+    { // gists
+        const ss = [
+            `body > div > div.position-relative`,
+            `.js-header-wrapper > .Header`,
+            `.gisthead > div`
+        ];
+        await page.goto("https://gist.github.com/discover");
+        for(const s of ss){
+            try{ // test for turbo frame
+                await page.waitForSelector(s, { timeout: 5000 });
+                console.info('✅', s);
+            }catch(e){
+                console.error('❌', s);
+                failed = true;
+            }
+        }
+    }
+
     await browser.close();
 
     failed && process.exit(1);
