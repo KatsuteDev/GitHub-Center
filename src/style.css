@@ -33,12 +33,20 @@ body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-c
         margin-left: calc(-50dvw + 635px) !important;
         margin-right: calc(-50dvw + 635px) !important;
     }
+
+    [data-testid="issue-metadata-sticky"] {
+        width: calc(100dvw - 20px) !important
+    }
 }
 
 @media(min-width: 2800px){
     .pr-toolbar.position-stuck {
         margin-left: calc(-50dvw + 660px) !important;
         margin-right: calc(-50dvw + 660px) !important;
+    }
+
+    [data-testid="issue-metadata-sticky"] {
+        width: calc(100dvw - 40px) !important
     }
 }
 
