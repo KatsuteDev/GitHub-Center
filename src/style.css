@@ -29,7 +29,7 @@ body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-c
 }
 
 @media (min-width: 1400px) and (max-width: 2800px) {
-    .pr-toolbar.position-stuck {
+    .pr-toolbar.position-stuck, [class*=" PullRequestFilesToolbar-module__is-stuck"] {
         margin-left: calc(-50dvw + 635px) !important;
         margin-right: calc(-50dvw + 635px) !important;
     }
@@ -40,7 +40,7 @@ body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-c
 }
 
 @media(min-width: 2800px){
-    .pr-toolbar.position-stuck {
+    .pr-toolbar.position-stuck, [class*=" PullRequestFilesToolbar-module__is-stuck"] {
         margin-left: calc(-50dvw + 660px) !important;
         margin-right: calc(-50dvw + 660px) !important;
     }
@@ -55,4 +55,12 @@ body:not(.project-page) #repo-content-turbo-frame > div:not(#repo-content-pjax-c
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+}
+
+[class*=" PullRequestFilesToolbar-module__is-stuck"] > div:first-of-type {
+    margin-left: calc(50dvw - 670px) !important;
+}
+
+[class*=" PullRequestFilesToolbar-module__is-stuck"] > div:last-of-type {
+    margin-right: calc(50dvw - 670px) !important;
 }
