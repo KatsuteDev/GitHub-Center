@@ -1,8 +1,9 @@
 /* Copyright (C) 2025 Katsute <https://github.com/Katsute> */
 
 .AppHeader > div,
-#js-repo-pjax-container > *:not(projects-v2, .flash),
-body:not(.project-page) #repo-content-turbo-frame > div
+#repo-content-pjax-container, #repo-content-turbo-frame,
+react-app[app-name="org-repos-list"],
+react-app[app-name="blackbird-search"]
 {
     width: 100%;
     max-width: 1280px;
