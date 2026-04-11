@@ -3,11 +3,12 @@
 body.notifications-v2 .application-main,
 .AppHeader > div,
 #repo-content-pjax-container, #repo-content-turbo-frame,
+react-app[app-name="blackbird-search"],
 react-app[app-name="dashboard-surface"],
 react-app[app-name="issues-react"],
-react-app[app-name="repos-finder"],
 react-app[app-name="org-repos-list"],
-react-app[app-name="blackbird-search"],
+react-app[app-name="repo-agents"],
+react-app[app-name="repos-finder"],
 react-partial[partial-name="global-nav-bar"] > div > header > *
 {
     width: 100%;
