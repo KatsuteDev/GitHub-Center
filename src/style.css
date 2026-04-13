@@ -1,6 +1,6 @@
 /* Copyright (C) 2026 Katsute <https://github.com/Katsute> */
 
-body.notifications-v2 .application-main,
+.application-main:has(> main),
 .AppHeader > div,
 #repo-content-pjax-container, #repo-content-turbo-frame,
 react-app[app-name="blackbird-search"],
