@@ -2,7 +2,9 @@
 
 .application-main:has(> main),
 .AppHeader > div,
-#repo-content-pjax-container, #repo-content-turbo-frame,
+#notification-shelf > div,
+#repo-content-pjax-container,
+#repo-content-turbo-frame,
 react-app[app-name="blackbird-search"],
 react-app[app-name="dashboard-surface"],
 react-app[app-name="issues-react"],
