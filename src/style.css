@@ -1,6 +1,6 @@
 /* Copyright (C) 2026 Katsute <https://github.com/Katsute> */
 
-.application-main:has(> main),
+body:has(.GlobalNav) .application-main:has(> main),
 .AppHeader > div,
 #notification-shelf > div,
 #repo-content-pjax-container,
