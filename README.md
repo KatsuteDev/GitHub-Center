@@ -10,34 +10,25 @@
     <div>
         <a href="https://github.com/KatsuteDev/GitHub-Center/issues">Report an Issue</a>
         •
-        <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn">Chrome Extension</a>
+        <a href="https://addons.mozilla.org/firefox/addon/github-center">Firefox Add-on</a>
         •
-        <a href="https://addons.mozilla.org/firefox/addon/github-center">Mozilla Add-on</a>
+        <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn">Chrome Extension</a>
     <br><br>
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License"></a>
-    <br><br>
-        <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn"><img src="https://img.shields.io/chrome-web-store/stars/phhlifdnoknhipocgnagdheojdekacfn?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF&label=Rating&labelColor=202020&color=4285F4" alt="Chrome Web Store Rating"></a>
-        <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn"><img src="https://img.shields.io/chrome-web-store/users/phhlifdnoknhipocgnagdheojdekacfn?style=for-the-badge&logo=google-chrome&logoColor=FFFFFF&label=Installs&labelColor=202020&color=4285F4" alt="Chrome Web Store Users"></a>
-        <a href="https://addons.mozilla.org/firefox/addon/github-center"><img src="https://img.shields.io/amo/stars/github-center?style=for-the-badge&logo=firefox-browser&logoColor=FFFFFF&label=Rating&labelColor=202020&color=FF7139" alt="Mozilla Firefox Rating"></a>
-        <a href="https://addons.mozilla.org/firefox/addon/github-center"><img src="https://img.shields.io/amo/users/github-center?style=for-the-badge&logo=firefox-browser&logoColor=FFFFFF&label=Installs&labelColor=202020&color=FF7139" alt="Mozilla Firefox Users"></a>
     </div>
 </div>
 
 ### Installation
 
-#### Chrome (recommended)
+#### Firefox (recommended)
+
+<a href="https://addons.mozilla.org/firefox/addon/github-center"><img alt="Mozilla Firefox" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/firefox.svg"></a>
+
+#### Chromium
 
 <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn"><img alt="Google Chrome" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/chrome.svg"></a>
 <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn"><img alt="Microsoft Edge" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/edge.svg"></a>
 <a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn"><img alt="Opera" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/opera.svg"></a>
-<a href="https://chrome.google.com/webstore/detail/github-center/phhlifdnoknhipocgnagdheojdekacfn"><img alt="Chrome Web Store" valign="middle" src="https://img.shields.io/chrome-web-store/v/phhlifdnoknhipocgnagdheojdekacfn?label=%20&style=flat-square&color=4285F4"></a>
-
-#### Firefox
-
-<sup><i>requires Firefox 121 or higher</i></sup>
-
-<a href="https://addons.mozilla.org/firefox/addon/github-center"><img alt="Mozilla Firefox" width="48" valign="middle" src="https://raw.githubusercontent.com/KatsuteDev/GitHub-Center/main/assets/firefox.svg"></a>
-<a href="https://addons.mozilla.org/firefox/addon/github-center"><img alt="Mozilla Add-on" valign="middle" src="https://img.shields.io/amo/v/github-center?label=%20&style=flat-square&color=FF7139"></a>
 
 ## &nbsp;
 
