@@ -1,5 +1,8 @@
 /* Copyright (C) 2026 Katsute <https://github.com/Katsute> */
 
+.GlobalNav > div,
+.GlobalNav > nav,
+#ui-service-main-content,
 body:has(.GlobalNav) .application-main:has(> main),
 .AppHeader > div,
 #notification-shelf > div,
